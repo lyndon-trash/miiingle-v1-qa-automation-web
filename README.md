@@ -1,4 +1,4 @@
-# Miiingle.NET QA Automation - PWA
+# Miiingle.NET Web QA Automation and Test Assist
 This is a multi-purpose project:
 - a microservice for poking inside the cluster and manipulation of the database in the name of test setup
 - a microservice for hosting the test results
