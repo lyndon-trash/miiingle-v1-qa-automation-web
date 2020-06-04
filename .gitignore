@@ -30,3 +30,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### Bug with Allure ###
+ajcore.**.txt
+.allure

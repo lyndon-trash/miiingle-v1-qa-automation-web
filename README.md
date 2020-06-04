@@ -4,3 +4,9 @@ This is a multi-purpose project:
 - a microservice for hosting the test results
 - a collection of API test suite
 - another collection of Web Test suite
+
+## Run
+```
+gradlew clean test allureReport bootJar
+java -jar build\libs\qa-automation-web-0.0.1-SNAPSHOT.jar
+```
