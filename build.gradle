@@ -23,6 +23,7 @@ dependencies {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 	testCompile(
+			'com.codeborne:selenide:5.12.2',
 			'org.spockframework:spock-core:2.0-M2-groovy-2.5',
 	)
 }
