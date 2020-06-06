@@ -6,8 +6,6 @@ plugins {
 }
 
 group = 'net.miiingle'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
 
 def allureVersion = '2.13.1'
 def allureGradleVersion = '2.8.1'

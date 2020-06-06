@@ -1,4 +1,7 @@
 # Miiingle.NET Web QA Automation and Test Assist
+
+[![Build Status](https://travis-ci.com/miiingle/qa-automation-web.svg?branch=master)](https://travis-ci.com/miiingle/qa-automation-web)
+
 This is a multi-purpose project:
 - a microservice for poking inside the cluster and manipulation of the database in the name of test setup
 - a microservice for hosting the test results
