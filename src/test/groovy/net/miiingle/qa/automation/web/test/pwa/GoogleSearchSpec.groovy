@@ -6,7 +6,9 @@ import io.qameta.allure.Feature
 import io.qameta.allure.Story
 import org.openqa.selenium.By
 
+import static com.codeborne.selenide.Condition.appear
 import static com.codeborne.selenide.Selenide.$
+import static com.codeborne.selenide.Selenide.$x
 import static com.codeborne.selenide.Selenide.open
 
 @Epic("MNT-01")
@@ -32,6 +34,6 @@ class GoogleSearchSpec extends WebUISpecification {
         $(By.cssSelector(".islrc > .isv-r:nth-child(3) .rg_i")).click()
 
         then:
-        1 == 1
+        $x("//*[@placeholder='Add Search Name']").should(appear)
     }
 }

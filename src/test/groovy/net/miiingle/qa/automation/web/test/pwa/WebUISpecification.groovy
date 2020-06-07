@@ -29,8 +29,6 @@ class WebUISpecification extends Specification {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide()
                 .screenshots(true)
                 .savePageSource(false))
-
-
     }
 
     def cleanup() {
