@@ -1,20 +1,19 @@
 package net.miiingle.qa.automation.web.test.pwa
 
-
 import io.qameta.allure.Epic
 import io.qameta.allure.Feature
+import io.qameta.allure.Issue
 import io.qameta.allure.Story
 import org.openqa.selenium.By
 
 import static com.codeborne.selenide.Condition.appear
-import static com.codeborne.selenide.Selenide.$
-import static com.codeborne.selenide.Selenide.$x
-import static com.codeborne.selenide.Selenide.open
+import static com.codeborne.selenide.Selenide.*
 
 @Epic("MNT-01")
 @Feature("MNT-02")
 class GoogleSearchSpec extends WebUISpecification {
 
+    @Issue("6")
     @Story("As an ordinary user, I should be able to search terms in Google.com")
     def "should search google"() {
         given: "an intention to search"
@@ -36,4 +35,5 @@ class GoogleSearchSpec extends WebUISpecification {
         then:
         $x("//*[@placeholder='Add Search Name']").should(appear)
     }
+
 }
