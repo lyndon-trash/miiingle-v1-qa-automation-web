@@ -11,7 +11,6 @@ This is a multi-purpose project:
 ## Run
 - display the reports server
 ```
-gradlew clean test allureReport bootJar
-java -jar build\libs\qa-automation-web-0.0.1-SNAPSHOT.jar
+test
 ```
 - browse [HERE](http://localhost:8999/allure/index.html)
